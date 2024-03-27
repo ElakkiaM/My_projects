@@ -1,0 +1,49 @@
+img{
+    border-radius: 50%;
+}
+
+body{
+    
+    background-color: #3C3633;
+}
+ul{
+    list-style-type: none;
+    
+    
+}
+ul li{
+    padding: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    background-color: #747264;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+ul li a:hover{
+    background-color: rgb(101, 248, 101);
+}
+p{
+    color: rgb(101, 248, 101);
+}
+
+h1{
+    color: antiquewhite;
+}
+.main{
+    background-color: rgb(75, 71, 71);
+    width: fit-content;
+    padding: 20px 100px 20px 100px;
+    text-align: center;
+    margin-left: 35%;
+    border-radius: 20px;
+}
+#s1{
+    color: white;
+}
+
+
+
+
