@@ -4,36 +4,47 @@ img{
 
 body{
     
-    background-color: #3C3633;
+    background-color: hsl(0, 0%, 8%);
 }
 ul{
     list-style-type: none;
     
-    
 }
 ul li{
-    padding: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr;
+   
 
 }
+
 ul li a{
+    box-sizing: border-box;
     text-decoration: none;
-    background-color: #747264;
+    background-color: hsl(0, 0%, 20%);
     color: antiquewhite;
     padding: 10px;
     border-radius: 10px;
+    font-family: inter-regular;
+    
 }
 ul li a:hover{
-    background-color: rgb(101, 248, 101);
+    background-color:  hsl(75, 94%, 57%);
+    color: black;
+    font-family: inter-regular;
 }
 p{
-    color: rgb(101, 248, 101);
+    color:  hsl(75, 94%, 57%);
+    font-family: inter-semibold;
 }
 
 h1{
     color: antiquewhite;
+    font-family:inter,sans-serif ;
+
 }
 .main{
-    background-color: rgb(75, 71, 71);
+    background-color: hsl(0, 0%, 12%);
     width: fit-content;
     padding: 20px 100px 20px 100px;
     text-align: center;
@@ -43,6 +54,22 @@ h1{
 #s1{
     color: white;
 }
+@font-face{
+    font-family: inter;
+    src: url(Inter-Bold.ttf);
+}
+@font-face{
+    font-family: inter-semibold;
+    src: url(Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: inter-regular;
+    src: url(Inter-Regular.ttf);
+}
+
+
+
+
 
 
 
